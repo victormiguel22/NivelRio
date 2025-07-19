@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Previsão do Nível do Rio</title>
+</head>
+<body>
+    <h1>Previsão do Nível do Rio em Rio do Sul</h1>
+    <form action="/prever" method="post">
+        <label for="chuva_itup">Chuva em Ituporanga (mm):</label>
+        <input type="number" id="chuva_itup" name="chuva_itup" step="0.01" required><br><br>
+        
+        <label for="nivel_itup">Nível em Ituporanga (m):</label>
+        <input type="number" id="nivel_itup" name="nivel_itup" step="0.01" required><br><br>
+        
+        <label for="chuva_taio">Chuva em Taió (mm):</label>
+        <input type="number" id="chuva_taio" name="chuva_taio" step="0.01" required><br><br>
+        
+        <label for="nivel_taio">Nível em Taió (m):</label>
+        <input type="number" id="nivel_taio" name="nivel_taio" step="0.01" required><br><br>
+        
+        <input type="submit" value="Prever">
+    </form>
+</body>
+</html>
